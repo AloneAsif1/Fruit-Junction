@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Junction</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font rem -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+.font-rem{
+    font-family: 'REM'; 
+}
+</style>
+</head>
+<body class="font-rem">
+    <header class="container mx-auto">
+        
+            <div class="navbar mt-3 flex flex-row-reverse lg:flex-row justify-between bg-none lg:bg-red-500 md:bg-red-500 rounded-full">
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu text-lg font-medium menu-horizontal px-1 text-white">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-start lg:hidden">
+                  <div class="dropdown flex justify-end ">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm text-lg font-medium dropdown-content text-black mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+                  
+                </div>
+                <div class="text-black md:text-white lg:text-white">
+<img class="w-9 lg:w-12" src="images/logo.png" alt="">
+                    <a class="text-xl lg:text-4xl font-bold px-2">Fruit Junction</a>
+                </div>
+                <div class="form-control hidden lg:inline-block">
+                    <div class="relative">
+                      <input type="text" placeholder="Search…" class=" rounded-full p-2 pr-5" />
+                      <a href=""><i class="fas fa-search absolute right-3 top-3"></i></a>
+                    </div>
+                  </div>
+              </div>
+        
+    </header>
+</body>
+</html>
