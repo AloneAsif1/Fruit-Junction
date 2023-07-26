@@ -23,6 +23,7 @@
           colors: {
             clifford: '#da373d',
             'btn-bg': '#F85559',
+            'title-font': '#121212',
           }
         }
       }
@@ -112,25 +113,64 @@
                     </div>
                 </div>
             </div>
-            <div class=" text-center space-y-1 md:space-y-3 lg:space-y-6 text-white w-1/2 mx-auto absolute top-[1%] md:top-[13%] lg:top-[25%] left-[25%]">
-                <h3 class=" text-xl md:text-4xl lg:text-7xl ">
+
+            <div class=" text-center  space-y-2 md:space-y-3 lg:space-y-6 text-white w-1/2 mx-auto absolute top-[5%] md:top-[13%] lg:top-[25%] left-[25%]">
+                <h3 class=" text-xl md:text-4xl lg:text-7xl font-extrabold">
                     Exotic tastes at your doorstep
                 </h3>
                 <p class="text-sm md:text-xl lg:text-xl">We supply highly quality organic products</p>
-                <button class="btn bg-btn-bg   border-none text-white text-sm lg:text-xl md:text-xl hover:text-black">Shop Now</button>
+                <button class="px-3 py-1 rounded-lg lg:px-8 lg:py-3 bg-btn-bg  border-none text-white text-xs lg:text-xl md:text-xl hover:text-black hover:bg-red-300">Shop Now</button>
             </div>
             <div class="hidden rounded-lg absolute top-[80%] left-[10%] lg:inline-block w-[80%]  bg-white">
                 <div class="flex justify-around">
-                    <div class="text-center"><img src="images/fruit1.png" alt=""><br>Berry</div>
-                    <div class="text-center"><img src="images/fruit2.png" alt=""> <br> Orange</div>
-                    <div class="text-center"><img src="images/fruit3.png" alt=""><br> Mango</div>
-                    <div class="text-center"><img src="images/fruit4.png" alt=""><br>Strawberry</div>
-                    <div class="text-center"><img src="images/fruit5.png" alt=""><br>Pomegranate</div>
+                    <div class="text-center text-title-font"><img src="images/fruit1.png" alt=""><br>Berry</div>
+                    <div class="text-center text-title-font"><img src="images/fruit2.png" alt=""> <br> Orange</div>
+                    <div class="text-center text-title-font"><img src="images/fruit3.png" alt=""><br> Mango</div>
+                    <div class="text-center text-title-font"><img src="images/fruit4.png" alt=""><br>Strawberry</div>
+                    <div class="text-center text-title-font"><img src="images/fruit5.png" alt=""><br>Pomegranate</div>
                 </div>
             </div>
         </div>
 
     </header>
+    <!-- Main section -->
+    <main class="container mx-auto">
+        <div class="deal-container p-3 mt-40 flex justify-between flex-col md:flex-col lg:flex-row space-y-3 items-center">
+            <div class=" text-center lg:text-left space-y-5 ">
+<h3 class="text-5xl font-bold text-title-font">Deal of the day</h3>
+<p class="text-[#12121299]  text-center">Get ready for our exciting fruit shop deal! With our limited-time deal countdown, you can enjoy special discounts on a wide variety of fresh and juicy fruits.</p>
+            </div>
+            <div class="flex  gap-5 relative">
+                <div class="text-center">
+                  <span class="countdown font-bold text-4xl lg:text-7xl">
+                    <span style="--value:15;"></span>
+                  </span><br>
+                  days
+                </div> 
+                <div>
+                  <span class="countdown font-bold text-4xl lg:text-7xl">
+                    <span style="--value:10;"></span>
+                  </span><br>
+                  hours
+                </div> 
+                <div>
+                  <span class="countdown font-bold text-4xl lg:text-7xl">
+                    <span style="--value:24;"></span>
+                  </span><br>
+                  min
+                </div> 
+                <div>
+                  <span class="countdown font-bold text-4xl lg:text-7xl">
+                    <span style="--value:53;"></span>
+                  </span><br>
+                  sec
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical text-xl lg:text-4xl absolute left-[53px] top-[5px]  lg:left-[105px] lg:top-[16px]"></i>
+                <i class="fa-solid fa-ellipsis-vertical text-xl lg:text-4xl absolute left-[124px] top-[5px]  lg:left-[350px] lg:top-[16px]"></i>
+                <i class="fa-solid fa-ellipsis-vertical text-xl lg:text-4xl absolute left-[200px] top-[5px]  lg:left-[220px] lg:top-[16px]"></i>
+              </div>
+        </div>
+    </main>
 </body>
 
 </html>
