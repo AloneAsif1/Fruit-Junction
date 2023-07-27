@@ -33,8 +33,15 @@
     </script>
 </head>
 <style>
+    *{
+        box-sizing: border-box;
+    }
     .font-rem {
         font-family: 'REM';
+    }
+    .border{
+        border: none;
+        border-bottom: 5px solid rgb(73, 72, 72);
     }
 </style>
 </head>
@@ -142,10 +149,10 @@
     </header>
     <!-- Main section -->
     <main class="container mx-auto">
-        <div
-            class="deal-container p-3 mb-24 mt-40 flex justify-between flex-col md:flex-col lg:flex-row space-y-3 items-center">
+        <!-- countdown section  -->
+        <div class="w-[85%] mx-auto deal-container p-3 mb-24 mt-40 flex justify-between flex-col md:flex-col lg:flex-row space-y-3 items-center">
             <div class=" text-center lg:text-left space-y-5 ">
-                <h3 class="text-5xl font-bold text-title-font">Deal of the day</h3>
+                <h3 class="lg:text-5xl text-3xl font-bold text-title-font">Deal of the day</h3>
                 <p class="text-[#12121299] lg:w-2/3 text-center lg:text-left">Get ready for our exciting fruit shop
                     deal! With our
                     limited-time deal countdown, you can enjoy special discounts on a wide variety of fresh and juicy
@@ -185,7 +192,7 @@
             </div>
         </div>
         <!-- Team section -->
-        <section class="relative ">
+        <section class="relative">
             <div class="bg-black rounded-xl">
                 <img class=" h-[1350px] lg:h-full lg:w-full md:h-[800px] opacity-50" src="images/team.png" alt="">
             </div>
@@ -230,7 +237,7 @@
         </section>
 
         <!-- Why choose us section -->
-        <section class="mt-11">
+        <section class="mt-11 ">
             <div class="">
                 <h3 class="text-5xl text-center text-title-font font-extrabold">Why Choose Us</h3>
                 <p class="text-p-font text-center mt-3 font-medium">Choose us for unparalleled quality, exceptional
@@ -243,8 +250,10 @@
                             <img src="images/group 1.png" alt="">
                         </div>
                         <div class="">
-                            <h3 class="text-title-font text-center lg:text-left font-extrabold text-2xl">Dedicated Team
+                            <h3 class="text-title-font text-center lg:text-left font-extrabold text-2xl"><span
+                                    class="border">Dedicated</span> Team
                             </h3>
+                            
                             <p class="text-p-font text-center lg:text-left font-medium">Professional employees are there
                                 for you to
                                 pick the most amazing and fresh fruits.</p>
@@ -255,7 +264,8 @@
                             <img src="images/love 1.png" alt="">
                         </div>
                         <div class="">
-                            <h3 class="text-title-font text-center lg:text-left font-extrabold text-2xl">Fresh is Best
+                            <h3 class="text-title-font text-center lg:text-left font-extrabold text-2xl"><span
+                                    class="border">Fresh is</span> Best
                             </h3>
                             <p class="text-p-font text-center lg:text-left font-medium">Professional employees are there
                                 for you to
@@ -268,8 +278,9 @@
                         </div>
 
                         <div class="">
-                            <h3 class="text-title-font text-center lg:text-left font-extrabold text-2xl">Gift
-                                Certificates</h3>
+                            <h3 class="text-title-font text-center lg:text-left font-extrabold text-2xl"><span
+                                    class="border">Gift
+                                    Cert</span>ificates</h3>
                             <p class="text-p-font text-center lg:text-left font-medium">Professional employees are there
                                 for you to
                                 pick the most amazing and fresh fruits.</p>
@@ -283,7 +294,8 @@
                     <div class="flex flex-col-reverse lg:flex-row  items-center gap-3">
                         <div class="">
                             <h3 class="text-title-font text-center lg:text-right font-extrabold text-2xl">Integrated
-                                Supplier</h3>
+                                <span
+                                    class="border">Supplier</span></h3>
                             <p class="text-p-font text-center lg:text-right font-medium">Professional employees are
                                 there for you to
                                 pick the most amazing and fresh fruits.</p>
@@ -295,7 +307,8 @@
                     <div class="flex flex-col-reverse lg:flex-row items-center gap-3">
                         <div class="">
                             <h3 class="text-title-font text-center lg:text-right font-extrabold text-2xl">Sustainable
-                                Practice</h3>
+                                <span
+                                    class="border">Practice</span></h3>
                             <p class="text-p-font text-center lg:text-right font-medium">Professional employees are
                                 there for you to
                                 pick the most amazing and fresh fruits.</p>
@@ -306,9 +319,10 @@
                     </div>
                     <div class="flex flex-col-reverse lg:flex-row items-center gap-3">
                         <div class="">
-                            <h3 class="text-title-font text-center lg:text-right font-extrabold text-2xl">The Benefits
-                                Only</h3>
-                                <!-- kdklj -->
+                            <h3 class="text-title-font text-center lg:text-right font-extrabold text-2xl">The Benefi<span
+                                class="border">ts
+                                Only</span></h3>
+
                             <p class="text-p-font text-center lg:text-right font-medium">Professional employees are
                                 there for you to
                                 pick the most amazing and fresh fruits.</p>
